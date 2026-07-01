@@ -1,0 +1,47 @@
+# --- Web / API ---------------------------------------------------------
+fastapi
+uvicorn
+python-multipart
+
+# --- Config & validation ----------------------------------------------
+pydantic>=2.7
+pydantic-settings>=2.0
+python-dotenv
+
+# --- LangGraph stack (Azure OpenAI) -----------------------------------
+langgraph
+langchain
+langchain-openai
+langchain-text-splitters
+openai
+
+# --- OCR (PRIMARY) ----------------------------------------------------
+# PaddleOCR 3.x ships the new pipeline API. paddlepaddle is the C++
+# inference runtime; install the CPU wheel by default, swap for
+# paddlepaddle-gpu==3.0.0 on CUDA hosts.
+paddleocr==3.5.0
+paddlepaddle==3.0.0
+
+# --- Image / PDF processing -------------------------------------------
+opencv-python
+pillow
+numpy
+pandas
+pdfplumber
+pyzbar
+
+# --- ML utilities (downstream nodes) ----------------------------------
+rapidfuzz
+torch
+torchvision
+transformers
+timm
+
+# --- Storage / queueing -----------------------------------------------
+sqlalchemy
+psycopg2-binary
+redis
+celery
+
+# --- UI (optional) ----------------------------------------------------
+streamlit
