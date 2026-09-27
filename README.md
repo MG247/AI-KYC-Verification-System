@@ -228,8 +228,8 @@ JSON body example:
 	"document_path": "input/pan.jpg.jpeg",
 	"user_data": {
 		"name": "Mohit Gautam",
-		"dob": "2006-08-10",
-		"pan": "ERHPG7459D"
+		"dob": "XXXX-XX-XX",
+		"pan": "XXXXXXXXXXX"
 	},
 	"document_type_hint": "PAN",
 	"ocr_engine": "paddle"
